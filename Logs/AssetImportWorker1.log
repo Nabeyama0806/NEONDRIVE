@@ -1,0 +1,1047 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.22f1 (887be4894c44) revision 8944612'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26100) 64bit Core' Language: 'ja' Physical Memory: 16257 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.22f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+C:/Create/00_SourceTree/NEONDRIVE
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+62017
+Successfully changed project path to: C:/Create/00_SourceTree/NEONDRIVE
+C:/Create/00_SourceTree/NEONDRIVE
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [9240] Host "[IP] 192.168.3.26 [Port] 0 [Flags] 2 [Guid] 499184150 [EditorId] 499184150 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-RBLTMTP) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [9240] Host "[IP] 192.168.3.26 [Port] 0 [Flags] 2 [Guid] 499184150 [EditorId] 499184150 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-RBLTMTP) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 11 workers.
+Refreshing native plugins compatible for Editor in 42.19 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.22f1 (887be4894c44)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.22f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Create/00_SourceTree/NEONDRIVE/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 4060 (ID=0x2882)
+    Vendor:   NVIDIA
+    VRAM:     7957 MB
+    Driver:   32.0.15.6614
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.22f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.22f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.22f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56132
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.22f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.008667 seconds.
+- Loaded All Assemblies, in  0.365 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.291 seconds
+Domain Reload Profiling: 654ms
+	BeginReloadAssembly (119ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (34ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (61ms)
+	LoadAllAssembliesAndSetupDomain (138ms)
+		LoadAssemblies (116ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (137ms)
+			TypeCache.Refresh (135ms)
+				TypeCache.ScanAssembly (121ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (291ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (234ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (10ms)
+			SetLoadedEditorAssemblies (7ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (165ms)
+			ProcessInitializeOnLoadMethodAttributes (49ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.967 seconds
+Refreshing native plugins compatible for Editor in 17.30 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.033 seconds
+Domain Reload Profiling: 1995ms
+	BeginReloadAssembly (176ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (22ms)
+	RebuildCommonClasses (43ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (51ms)
+	LoadAllAssembliesAndSetupDomain (679ms)
+		LoadAssemblies (524ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (263ms)
+			TypeCache.Refresh (218ms)
+				TypeCache.ScanAssembly (197ms)
+			ScanForSourceGeneratedMonoScriptInfo (31ms)
+			ResolveRequiredComponents (12ms)
+	FinalizeReload (1034ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (838ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (7ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (109ms)
+			ProcessInitializeOnLoadAttributes (493ms)
+			ProcessInitializeOnLoadMethodAttributes (212ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 19.65 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6573 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 121 unused Assets / (441.5 KB). Loaded Objects now: 6999.
+Memory consumption went from 244.2 MB to 243.8 MB.
+Total: 8.678000 ms (FindLiveObjects: 0.562100 ms CreateObjectMapping: 0.184000 ms MarkObjects: 7.641300 ms  DeleteObjects: 0.289300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1119.955434 seconds.
+  path: Assets/InputSystem.inputsettings.asset
+  artifactKey: Guid(1e4bca167b2960c4c81ffff73a847cb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/InputSystem.inputsettings.asset using Guid(1e4bca167b2960c4c81ffff73a847cb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45f2029210bb9c68a36ecb4740c889f2') in 0.011192 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/TitleLogo.png
+  artifactKey: Guid(80ecf69dd6a4bec4982c9904cf112d2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TitleLogo.png using Guid(80ecf69dd6a4bec4982c9904cf112d2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc2614ac41c9e673e8ca64db1c8f0af0') in 0.089526 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 9.443580 seconds.
+  path: Assets/Sci-Fi UI/_SciFi_GUISkin_/Skin_Assets/font/zekton free.ttf
+  artifactKey: Guid(8297a2bf97dbbba468bd2518d003a876) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-Fi UI/_SciFi_GUISkin_/Skin_Assets/font/zekton free.ttf using Guid(8297a2bf97dbbba468bd2518d003a876) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a2de68c2faa6eb316bb57bde3709606') in 0.317685 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 25.926386 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset
+  artifactKey: Guid(2e498d1c8094910479dc3e1b768306a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset using Guid(2e498d1c8094910479dc3e1b768306a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c0b8317e2c5a55b4416ff53428e81d7') in 0.032411 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 895.980810 seconds.
+  path: Assets/TextMesh Pro/Fonts/toroman SDF.asset
+  artifactKey: Guid(48850632425dd424c90128562088402a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Fonts/toroman SDF.asset using Guid(48850632425dd424c90128562088402a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4a9253cc2bef32214c76be4863b7057') in 0.065771 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 806.164916 seconds.
+  path: Assets/EffectAsset/Matthew Guz/Hits Effects FREE/Textures/1-Crit_.tiff
+  artifactKey: Guid(099d901f22db9f84e93ede581716338c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EffectAsset/Matthew Guz/Hits Effects FREE/Textures/1-Crit_.tiff using Guid(099d901f22db9f84e93ede581716338c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e92289aec921c63cbecb86988039ef36') in 0.015500 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.056714 seconds.
+  path: Assets/EffectAsset/Matthew Guz/Hits Effects FREE/Textures/1-Ice Hit.png
+  artifactKey: Guid(f412c3679ea86a447a80c7f7d0f6dec4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EffectAsset/Matthew Guz/Hits Effects FREE/Textures/1-Ice Hit.png using Guid(f412c3679ea86a447a80c7f7d0f6dec4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3a85d5fbc560ab267987db72db5989c') in 0.020697 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/EffectAsset/Matthew Guz/Hits Effects FREE/Textures/1-Particle.png
+  artifactKey: Guid(75cedbb99e2c96a49985f7bb8790fa18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EffectAsset/Matthew Guz/Hits Effects FREE/Textures/1-Particle.png using Guid(75cedbb99e2c96a49985f7bb8790fa18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '570117f3318582380903ee1f25854f65') in 0.024011 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/EffectAsset/Matthew Guz/Hits Effects FREE/Textures/1-Love1.png
+  artifactKey: Guid(4f36dd72b41c0c04a975dc2dd3d25b66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EffectAsset/Matthew Guz/Hits Effects FREE/Textures/1-Love1.png using Guid(4f36dd72b41c0c04a975dc2dd3d25b66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91872a321dd974b0a2712740cf454dca') in 0.019338 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/EffectAsset/Matthew Guz/Hits Effects FREE/Textures/1-Smoke.tiff
+  artifactKey: Guid(906fed77d26fb6949a29657f2515367e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EffectAsset/Matthew Guz/Hits Effects FREE/Textures/1-Smoke.tiff using Guid(906fed77d26fb6949a29657f2515367e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6435f413ec6d6dfe81e64f9a033c595') in 0.031582 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Polygonal Mind/Assets/2108_ABMAssetPack/Materials/Textures/AltarHolo_Albedo.tif
+  artifactKey: Guid(292d7ad6b08ce524d967eaf3e4b88f97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygonal Mind/Assets/2108_ABMAssetPack/Materials/Textures/AltarHolo_Albedo.tif using Guid(292d7ad6b08ce524d967eaf3e4b88f97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b271179924bcce8f4cf6a640463f5e88') in 0.020417 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Polygonal Mind/Assets/2108_ABMAssetPack/Materials/Textures/Altar_Albedo.tif
+  artifactKey: Guid(356385d99d78e9a4ab6f66c8c1f789fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygonal Mind/Assets/2108_ABMAssetPack/Materials/Textures/Altar_Albedo.tif using Guid(356385d99d78e9a4ab6f66c8c1f789fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c834e88bfe59cdbb7918d516f2d9e8a7') in 0.019940 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Sci-Fi UI/_SciFi_GUISkin_/Bonus_Assets/arrows/arrow_right.png
+  artifactKey: Guid(e05004e4bcd8b3e49bb0cbaab0215760) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-Fi UI/_SciFi_GUISkin_/Bonus_Assets/arrows/arrow_right.png using Guid(e05004e4bcd8b3e49bb0cbaab0215760) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb4150724b1f30504ecd76eae9591414') in 0.017559 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Sci-Fi UI/_SciFi_GUISkin_/Bonus_Assets/arrows/back_arrow.png
+  artifactKey: Guid(a9ef9e2f50f97a84bbd269b5f7cc5ea4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-Fi UI/_SciFi_GUISkin_/Bonus_Assets/arrows/back_arrow.png using Guid(a9ef9e2f50f97a84bbd269b5f7cc5ea4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ce7c6c94b5e04edbe50c7483b4c0fc6') in 0.016187 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Sci-Fi UI/_SciFi_GUISkin_/Bonus_Assets/bars/background_bar.png
+  artifactKey: Guid(5ac1b94d4d2f7eb4e966846bb93a15cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-Fi UI/_SciFi_GUISkin_/Bonus_Assets/bars/background_bar.png using Guid(5ac1b94d4d2f7eb4e966846bb93a15cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4dd40610798cb8ee83c8befd77192db8') in 0.017213 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Mryotaisu/Models/Materials/BodyAo.png
+  artifactKey: Guid(dae021a85f5c2994ba99925df9feb60e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mryotaisu/Models/Materials/BodyAo.png using Guid(dae021a85f5c2994ba99925df9feb60e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '458954c451ad2223465931a1d3b6f888') in 0.028451 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Sci-Fi UI/_SciFi_GUISkin_/Skin_Assets/buttons/button_pushed.png
+  artifactKey: Guid(03cbfa7fbded80a479f24add4a997757) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-Fi UI/_SciFi_GUISkin_/Skin_Assets/buttons/button_pushed.png using Guid(03cbfa7fbded80a479f24add4a997757) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10ea9d86fc53000428a262c12bf44cc8') in 0.016486 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Mryotaisu/Models/Materials/BodyNormal.png
+  artifactKey: Guid(0a67344156cdee1409641022129aa3ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mryotaisu/Models/Materials/BodyNormal.png using Guid(0a67344156cdee1409641022129aa3ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b3deb5dc813d5fe3446eed543aee845') in 0.028124 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Sci-Fi UI/_SciFi_GUISkin_/Bonus_Assets/bars/bar_red1.png
+  artifactKey: Guid(2678aad9451e8e44a9c17d6e98886f05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-Fi UI/_SciFi_GUISkin_/Bonus_Assets/bars/bar_red1.png using Guid(2678aad9451e8e44a9c17d6e98886f05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82e94d9eb029f1da0635ae7c7247f82e') in 0.018983 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/MyAssets/CyberSoldier/CyberSoldier_Diff.tga
+  artifactKey: Guid(1fb1c364a3eed724bb16168fbb1cad8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MyAssets/CyberSoldier/CyberSoldier_Diff.tga using Guid(1fb1c364a3eed724bb16168fbb1cad8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9f42ed3707c3505a221345911d5dc9c') in 0.017935 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/EffectAsset/GabrielAguiarProductions/FreeQuickEffectsVol1/Textures/DistortedFlare01.png
+  artifactKey: Guid(045455acf260bb2448a3af663573846c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EffectAsset/GabrielAguiarProductions/FreeQuickEffectsVol1/Textures/DistortedFlare01.png using Guid(045455acf260bb2448a3af663573846c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7863dabdf85f549a198786d2eb80ea65') in 0.016393 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/NanoPlasmaProductions/ElectricitySword2/Textures/Grayscale_Textures/2048x2048/ElectricitySword2_BaseColor_GrayScale_2048x2048.png
+  artifactKey: Guid(7d7a04fe8ff1ffd41afea1fe384b4827) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NanoPlasmaProductions/ElectricitySword2/Textures/Grayscale_Textures/2048x2048/ElectricitySword2_BaseColor_GrayScale_2048x2048.png using Guid(7d7a04fe8ff1ffd41afea1fe384b4827) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c842f9fff109239ca4cbfe6cf2da049f') in 0.022072 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Sci-Fi UI/_SciFi_GUISkin_/Bonus_Assets/bars/bar_purple1.png
+  artifactKey: Guid(17e47abe8c135d64fb588e3425605def) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-Fi UI/_SciFi_GUISkin_/Bonus_Assets/bars/bar_purple1.png using Guid(17e47abe8c135d64fb588e3425605def) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cbe28ba54ee4b5eb6bc0cec05f0df40') in 0.013928 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/EffectAsset/Hovl Studio/Magic effects pack/Textures/Circle.png
+  artifactKey: Guid(c4cf9c9f7cf52f6409ef75a08a4357ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EffectAsset/Hovl Studio/Magic effects pack/Textures/Circle.png using Guid(c4cf9c9f7cf52f6409ef75a08a4357ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c8f43efceb6c5e51b400de0ee165e36') in 0.015108 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/EffectAsset/Hovl Studio/Magic effects pack/Textures/Electro.png
+  artifactKey: Guid(ede7b7fc6b09fcc41892be0d6935c8cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EffectAsset/Hovl Studio/Magic effects pack/Textures/Electro.png using Guid(ede7b7fc6b09fcc41892be0d6935c8cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a78152f72b3b6a34950aee642fc0a47') in 0.020269 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/EffectAsset/Hovl Studio/Magic effects pack/Textures/Flash2.png
+  artifactKey: Guid(b80e2bf2e14ae37469c6a566da0c8c18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EffectAsset/Hovl Studio/Magic effects pack/Textures/Flash2.png using Guid(b80e2bf2e14ae37469c6a566da0c8c18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b44f375dc928ccd88af525847274710') in 0.014729 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/NanoPlasmaProductions/ElectricitySword2/Textures/HDRP_Textures/2048x2048/ElectricitySword2_AmbientOcclusion_HDRP_2048x2048.png
+  artifactKey: Guid(cbbb155eef4a56047bd3715ef6c78476) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NanoPlasmaProductions/ElectricitySword2/Textures/HDRP_Textures/2048x2048/ElectricitySword2_AmbientOcclusion_HDRP_2048x2048.png using Guid(cbbb155eef4a56047bd3715ef6c78476) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '774931c4e8daa2b13d6ac18abcc55c53') in 0.017760 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Mryotaisu/Models/Materials/HairNormal.png
+  artifactKey: Guid(ec0e0e6c6e56cc14b8e309b6c13ec280) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mryotaisu/Models/Materials/HairNormal.png using Guid(ec0e0e6c6e56cc14b8e309b6c13ec280) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '895171d777d60298a1e14af4a120d2e7') in 0.032593 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/NanoPlasmaProductions/ElectricitySword2/Textures/HDRP_Textures/4096x4096/ElectricitySword2_BaseMap_HDRP_4096x4096.png
+  artifactKey: Guid(4b65bea8d377bb64395a7ef95d3743b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NanoPlasmaProductions/ElectricitySword2/Textures/HDRP_Textures/4096x4096/ElectricitySword2_BaseMap_HDRP_4096x4096.png using Guid(4b65bea8d377bb64395a7ef95d3743b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29d6a88541bbf1ad5e9167743eb99813') in 0.035198 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/EffectAsset/Matthew Guz/Hits Effects FREE/Textures/1-Particle 2.png
+  artifactKey: Guid(fb823f0cf7fe3ee4480cbd9f01a03049) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EffectAsset/Matthew Guz/Hits Effects FREE/Textures/1-Particle 2.png using Guid(fb823f0cf7fe3ee4480cbd9f01a03049) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c9736cd1138813ea31c3ecc1ac6312d') in 0.018564 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Polygonal Mind/Assets/2108_ABMAssetPack/Materials/Textures/Domes01_Albedo.tif
+  artifactKey: Guid(caf214fa7a5a0aa4083021b77f4b803d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygonal Mind/Assets/2108_ABMAssetPack/Materials/Textures/Domes01_Albedo.tif using Guid(caf214fa7a5a0aa4083021b77f4b803d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f847c639cd914eb1c8a66c4ca096649') in 0.033754 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Sci-Fi UI/_SciFi_GUISkin_/Bonus_Assets/bars/background_bar1.png
+  artifactKey: Guid(fd496259f55fb1f4f89429cd523c1af9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-Fi UI/_SciFi_GUISkin_/Bonus_Assets/bars/background_bar1.png using Guid(fd496259f55fb1f4f89429cd523c1af9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b554fb77ea03ff2491d268bac926988') in 0.016500 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/EffectAsset/Hovl Studio/Magic effects pack/Textures/Concrete slab_MetallicSmoothness.png
+  artifactKey: Guid(a685c8f461a651a46a2631ea3decafae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EffectAsset/Hovl Studio/Magic effects pack/Textures/Concrete slab_MetallicSmoothness.png using Guid(a685c8f461a651a46a2631ea3decafae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68b760ecc69aa42675a37b1626675306') in 0.032675 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/MyAssets/CyberSoldier/CyberSoldier_Normal.tga
+  artifactKey: Guid(62be769bc7c6581499074568823e9b74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MyAssets/CyberSoldier/CyberSoldier_Normal.tga using Guid(62be769bc7c6581499074568823e9b74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff797a8d9b43c257aac5479090c206fb') in 0.027207 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/EffectAsset/GabrielAguiarProductions/FreeQuickEffectsVol1/Textures/Flare00.PNG
+  artifactKey: Guid(e8bb5606fef74314e9e5e19aec6b527e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EffectAsset/GabrielAguiarProductions/FreeQuickEffectsVol1/Textures/Flare00.PNG using Guid(e8bb5606fef74314e9e5e19aec6b527e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6e81d7fd25689912fe265eceabea1c8') in 0.029287 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/NanoPlasmaProductions/ElectricitySword2/Textures/Grayscale_Textures/4096x4096/ElectricitySword2_BaseColor_Grayscale_4096x4096.png
+  artifactKey: Guid(7e44c5d861d38424785af430a7ff979d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NanoPlasmaProductions/ElectricitySword2/Textures/Grayscale_Textures/4096x4096/ElectricitySword2_BaseColor_Grayscale_4096x4096.png using Guid(7e44c5d861d38424785af430a7ff979d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df174557f8fbf1307d0600234e5e3edf') in 0.031387 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/NanoPlasmaProductions/ElectricitySword2/Textures/URP_Textures/2048x2048/ElectricitySword2_MetallicSmoothness_URP_2048x2048.png
+  artifactKey: Guid(2b8b0586e620d2a4081305297cb2215d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NanoPlasmaProductions/ElectricitySword2/Textures/URP_Textures/2048x2048/ElectricitySword2_MetallicSmoothness_URP_2048x2048.png using Guid(2b8b0586e620d2a4081305297cb2215d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3450c5c30a457791582781100f4b0fb') in 0.033260 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/NanoPlasmaProductions/ElectricitySword2/Textures/HDRP_Textures/2048x2048/ElectricitySword2_Emissive_HDRP_2048x2048.png
+  artifactKey: Guid(1486a93480d6a3041ac9c40da0266d7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NanoPlasmaProductions/ElectricitySword2/Textures/HDRP_Textures/2048x2048/ElectricitySword2_Emissive_HDRP_2048x2048.png using Guid(1486a93480d6a3041ac9c40da0266d7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f336d79d4d0cfbbe12e1550dad31856') in 0.019559 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Mryotaisu/Models/Materials/Hair.png
+  artifactKey: Guid(41d1f6bdcfbcf994dab28cf20d9b21dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mryotaisu/Models/Materials/Hair.png using Guid(41d1f6bdcfbcf994dab28cf20d9b21dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b49dd775e32cc998f87ee37e1654bda') in 0.033091 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/NanoPlasmaProductions/ElectricitySword2/Textures/URP_Textures/2048x2048/ElectricitySword2_Normal_URP_2048x2048.png
+  artifactKey: Guid(2fd4522b8ecd8fc459b3d5626af7070d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NanoPlasmaProductions/ElectricitySword2/Textures/URP_Textures/2048x2048/ElectricitySword2_Normal_URP_2048x2048.png using Guid(2fd4522b8ecd8fc459b3d5626af7070d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b6764d68de24e65c98d9539973858de') in 0.026988 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/EffectAsset/Hovl Studio/Magic effects pack/Textures/Gradient.png
+  artifactKey: Guid(878972c3151f97940b2c53535a0d1ce5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EffectAsset/Hovl Studio/Magic effects pack/Textures/Gradient.png using Guid(878972c3151f97940b2c53535a0d1ce5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bfade2ef0f23695bf50d4497c965afb') in 0.017563 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/EffectAsset/GabrielAguiarProductions/FreeQuickEffectsVol1/Textures/Circle01_v1.png
+  artifactKey: Guid(d13b9cb06b250314f9e816b4192ef192) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EffectAsset/GabrielAguiarProductions/FreeQuickEffectsVol1/Textures/Circle01_v1.png using Guid(d13b9cb06b250314f9e816b4192ef192) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97b542808816571ad6ad3a3929f1afbc') in 0.020349 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/NanoPlasmaProductions/ElectricitySword2/Textures/HDRP_Textures/4096x4096/ElectricitySword2_Emissive_HDRP_4096x4096.png
+  artifactKey: Guid(b5947dbe485322d4abf9452f901d06b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NanoPlasmaProductions/ElectricitySword2/Textures/HDRP_Textures/4096x4096/ElectricitySword2_Emissive_HDRP_4096x4096.png using Guid(b5947dbe485322d4abf9452f901d06b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8538cb80a12fb4c2edc2e0a04c03b811') in 0.025839 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/EffectAsset/Hovl Studio/Magic effects pack/Textures/Concrete slab_Height.png
+  artifactKey: Guid(db368c1c85b12fe48aba6cc9bcd41f43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EffectAsset/Hovl Studio/Magic effects pack/Textures/Concrete slab_Height.png using Guid(db368c1c85b12fe48aba6cc9bcd41f43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b1922fb1725acab6558b84684afdf50') in 0.019976 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/TextMesh Pro/Sprites/EmojiOne.png
+  artifactKey: Guid(dffef66376be4fa480fb02b19edbe903) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Sprites/EmojiOne.png using Guid(dffef66376be4fa480fb02b19edbe903) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31be26380b72cf1b8bbb59eed58b8894') in 0.026169 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/NanoPlasmaProductions/ElectricitySword2/Textures/URP_Textures/4096x4096/ElectricitySword2_Normal_URP_4096x4096.png
+  artifactKey: Guid(1ad0b29c02eebb043bf664dca7417d69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NanoPlasmaProductions/ElectricitySword2/Textures/URP_Textures/4096x4096/ElectricitySword2_Normal_URP_4096x4096.png using Guid(1ad0b29c02eebb043bf664dca7417d69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4487e473aea8449e2704f17a0e951062') in 0.060783 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Mryotaisu/Models/Materials/Face.png
+  artifactKey: Guid(3a334132f09f4fa4fac5a55876e1847e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mryotaisu/Models/Materials/Face.png using Guid(3a334132f09f4fa4fac5a55876e1847e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae3739c6fbdb2cbdeb4952dc07d7469e') in 0.043041 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/EffectAsset/Matthew Guz/Hits Effects FREE/Textures/1-Sparks.tiff
+  artifactKey: Guid(b9df888b474ec5e4b91ad5f5e9588796) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EffectAsset/Matthew Guz/Hits Effects FREE/Textures/1-Sparks.tiff using Guid(b9df888b474ec5e4b91ad5f5e9588796) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c55de6328f7c72e51f491e9f2b237d28') in 0.028211 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Sci-Fi UI/_SciFi_GUISkin_/atlas.png
+  artifactKey: Guid(56d84991286850f428b4e7df0cca7380) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-Fi UI/_SciFi_GUISkin_/atlas.png using Guid(56d84991286850f428b4e7df0cca7380) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e6c7cc78426535bf416c97ed5b39395') in 0.132335 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 34
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Mryotaisu/Models/Materials/LevelNormal.png
+  artifactKey: Guid(2a75cf7b83a82434e985c4f82297616e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mryotaisu/Models/Materials/LevelNormal.png using Guid(2a75cf7b83a82434e985c4f82297616e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d9bc55ca972c108b8d06dcfe63bc6ae') in 0.018882 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Sci-Fi UI/_SciFi_GUISkin_/Skin_Assets/joystick/joystick_back.png
+  artifactKey: Guid(53d7cf26f104b3645bd513691464f49d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-Fi UI/_SciFi_GUISkin_/Skin_Assets/joystick/joystick_back.png using Guid(53d7cf26f104b3645bd513691464f49d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2e640b8b126b1bef4401d018205c78a') in 0.015410 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Packages/com.unity.purchasing/Icons/LinkBlack.png
+  artifactKey: Guid(33d3dd2c39dfd49a3b2d36b20225624a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.purchasing/Icons/LinkBlack.png using Guid(33d3dd2c39dfd49a3b2d36b20225624a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f815d075fee7527ec27619de2b5c9cba') in 0.014288 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Mryotaisu/Models/Materials/LevelDif.png
+  artifactKey: Guid(604ad3d4c543ffe48ae11649d5e89063) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mryotaisu/Models/Materials/LevelDif.png using Guid(604ad3d4c543ffe48ae11649d5e89063) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '259c9f2751eb8bf1cf54f6025e95299e') in 0.015441 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Polygonal Mind/Assets/2108_ABMAssetPack/Materials/Textures/Path_Albedo.tif
+  artifactKey: Guid(e259efea619b9bc40b26a57c234a0574) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygonal Mind/Assets/2108_ABMAssetPack/Materials/Textures/Path_Albedo.tif using Guid(e259efea619b9bc40b26a57c234a0574) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '920a5eedb79b389fef246d7b2ec62367') in 0.026443 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Scenes/Title/Lightmap-0_comp_light.exr
+  artifactKey: Guid(0cc26933567fab540b1308154070ed79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Title/Lightmap-0_comp_light.exr using Guid(0cc26933567fab540b1308154070ed79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '363125f77f6667709719f7e6235bf9fb') in 0.020515 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Polygonal Mind/Assets/2108_ABMAssetPack/Materials/Textures/HoloBush_Albedo.tif
+  artifactKey: Guid(87135942fa8049b45a2e7e165e63e64f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygonal Mind/Assets/2108_ABMAssetPack/Materials/Textures/HoloBush_Albedo.tif using Guid(87135942fa8049b45a2e7e165e63e64f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5dfa6eb4016cf86490cb7921efae675d') in 0.017503 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Polygonal Mind/Assets/2108_ABMAssetPack/Materials/Textures/Hexagon_L_Emissive.tif
+  artifactKey: Guid(7f918012ebbfdbf4382ed42ee6ba10d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygonal Mind/Assets/2108_ABMAssetPack/Materials/Textures/Hexagon_L_Emissive.tif using Guid(7f918012ebbfdbf4382ed42ee6ba10d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3422ba034cfe9bc939323ae09c88ce45') in 0.023279 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Polygonal Mind/Assets/2108_ABMAssetPack/Materials/Textures/Hexagon_S_Emissive.tif
+  artifactKey: Guid(3ecc967fac60ff84caed25a3aaac4b38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygonal Mind/Assets/2108_ABMAssetPack/Materials/Textures/Hexagon_S_Emissive.tif using Guid(3ecc967fac60ff84caed25a3aaac4b38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0a02e4f42a63af7ae2828afbd7fc577') in 0.026777 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Scenes/Title/Lightmap-0_comp_dir.png
+  artifactKey: Guid(a068c98c9d770f345a0e346069d4ac1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Title/Lightmap-0_comp_dir.png using Guid(a068c98c9d770f345a0e346069d4ac1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6d5c50394fc1f89a76fdcf0cd7303a9') in 0.017927 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Polygonal Mind/Assets/2108_ABMAssetPack/Materials/Textures/Hexagon_VIP_Albedo.tif
+  artifactKey: Guid(73bfee4ac173dea46bad445116c47564) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygonal Mind/Assets/2108_ABMAssetPack/Materials/Textures/Hexagon_VIP_Albedo.tif using Guid(73bfee4ac173dea46bad445116c47564) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cfd57ffddcc41524500e87583d7655e') in 0.026515 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Polygonal Mind/Assets/2108_ABMAssetPack/Materials/Textures/HoloPot_Albedo.tif
+  artifactKey: Guid(02e4a4bc5794a9844ab5dbc7e31dfe4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygonal Mind/Assets/2108_ABMAssetPack/Materials/Textures/HoloPot_Albedo.tif using Guid(02e4a4bc5794a9844ab5dbc7e31dfe4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbc9937ab0fd7b073a6916f4dc4a5e1b') in 0.027235 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Polygonal Mind/Assets/2108_ABMAssetPack/Materials/Textures/Hexagon_M_Emissive.png
+  artifactKey: Guid(68d1efb7838911c468cf71219d04064a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygonal Mind/Assets/2108_ABMAssetPack/Materials/Textures/Hexagon_M_Emissive.png using Guid(68d1efb7838911c468cf71219d04064a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46836859852b1bcf0f6ac6b7ad2802d2') in 0.025782 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/EffectAsset/Matthew Guz/Hits Effects FREE/Materials/Floor/Texture/Height.png
+  artifactKey: Guid(ccdccdad117eec447a3acfc62d7d7630) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EffectAsset/Matthew Guz/Hits Effects FREE/Materials/Floor/Texture/Height.png using Guid(ccdccdad117eec447a3acfc62d7d7630) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97325d25b92bc9cdb46751d6655a192f') in 0.017936 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Polygonal Mind/Assets/2108_ABMAssetPack/Materials/Textures/Entrance_Albedo.tif
+  artifactKey: Guid(f00cad860db0d4246a0dc85bea863a6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygonal Mind/Assets/2108_ABMAssetPack/Materials/Textures/Entrance_Albedo.tif using Guid(f00cad860db0d4246a0dc85bea863a6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ac320be1a893c798e45039dcd8b06d9') in 0.026442 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Polygonal Mind/Assets/2108_ABMAssetPack/Materials/Textures/CryptoAvatars-logo.png
+  artifactKey: Guid(6ef5c723db5cdc14ab17fd2e645e30f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygonal Mind/Assets/2108_ABMAssetPack/Materials/Textures/CryptoAvatars-logo.png using Guid(6ef5c723db5cdc14ab17fd2e645e30f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '453f5749f064d1e3c4e1cb8b474334d7') in 0.015786 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/NanoPlasmaProductions/ElectricitySword2/Textures/URP_Textures/2048x2048/ElectricitySword2_Emission_URP_2048x2048.png
+  artifactKey: Guid(39afa2a0eb0f6044f9e8c2f7f6065e2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NanoPlasmaProductions/ElectricitySword2/Textures/URP_Textures/2048x2048/ElectricitySword2_Emission_URP_2048x2048.png using Guid(39afa2a0eb0f6044f9e8c2f7f6065e2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a96ba7ec3e696dd8c656e8dece1e0e0') in 0.016297 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/EffectAsset/Hovl Studio/Magic effects pack/Textures/Circle2.png
+  artifactKey: Guid(cb15b7c714c56904eb8628c669fd8aa7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EffectAsset/Hovl Studio/Magic effects pack/Textures/Circle2.png using Guid(cb15b7c714c56904eb8628c669fd8aa7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0716841f2c62eb3c1e3d626f2cdf4676') in 0.024616 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/EffectAsset/Matthew Guz/Hits Effects FREE/Textures/1-Point.png
+  artifactKey: Guid(509cefe9c71868c43b93b12aca23f5d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EffectAsset/Matthew Guz/Hits Effects FREE/Textures/1-Point.png using Guid(509cefe9c71868c43b93b12aca23f5d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99f9842ac0444d06e595599b67d6a30c') in 0.017786 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/EffectAsset/Matthew Guz/Hits Effects FREE/Textures/1-Shockwave.tiff
+  artifactKey: Guid(d0c75f6dab76e0349a13bf74539c7fac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EffectAsset/Matthew Guz/Hits Effects FREE/Textures/1-Shockwave.tiff using Guid(d0c75f6dab76e0349a13bf74539c7fac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '089f64de28612c6fb43b792f1a2f9265') in 0.015868 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/EffectAsset/Hovl Studio/Magic effects pack/Textures/Concrete slab.png
+  artifactKey: Guid(1b13dc101cf2ac7418019fd776161658) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EffectAsset/Hovl Studio/Magic effects pack/Textures/Concrete slab.png using Guid(1b13dc101cf2ac7418019fd776161658) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80d0cc7573f1d5637cc64acf0cecfcb8') in 0.019243 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.068904 seconds.
+  path: Assets/Sci-Fi UI/_SciFi_GUISkin_/Skin_Assets/buttons/pause.png
+  artifactKey: Guid(379c45e0c5ba5e54e8df03f52e4c7680) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-Fi UI/_SciFi_GUISkin_/Skin_Assets/buttons/pause.png using Guid(379c45e0c5ba5e54e8df03f52e4c7680) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '201858be67dc5a93de0253967f2303e5') in 0.014056 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Polygonal Mind/Assets/2108_ABMAssetPack/Materials/Textures/POAP_Albedo.tif
+  artifactKey: Guid(b917f2d107c65af49a4aaa953c0e8d42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygonal Mind/Assets/2108_ABMAssetPack/Materials/Textures/POAP_Albedo.tif using Guid(b917f2d107c65af49a4aaa953c0e8d42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e4b07a2343b13c62f1ab58dc344b46c') in 0.014432 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Polygonal Mind/Assets/2108_ABMAssetPack/Materials/Textures/PlatformBarrier_albedo.tif
+  artifactKey: Guid(a31f03050031b3a43b6d64f07df7f3b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygonal Mind/Assets/2108_ABMAssetPack/Materials/Textures/PlatformBarrier_albedo.tif using Guid(a31f03050031b3a43b6d64f07df7f3b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c9379508aea747e92320af34cf68e7f') in 0.015916 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Sci-Fi UI/_SciFi_GUISkin_/Bonus_Assets/bars/progress_bar.png
+  artifactKey: Guid(be40ff228ca528248b495d5025a1e327) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-Fi UI/_SciFi_GUISkin_/Bonus_Assets/bars/progress_bar.png using Guid(be40ff228ca528248b495d5025a1e327) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fc377be7e5f69ad87c3f14c394f5269') in 0.012870 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/EffectAsset/Hovl Studio/Magic effects pack/Textures/Point1n.png
+  artifactKey: Guid(5050511111526384094dd94bcde2676a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EffectAsset/Hovl Studio/Magic effects pack/Textures/Point1n.png using Guid(5050511111526384094dd94bcde2676a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cb9fd12965ec81007563f3d8cc100d0') in 0.013368 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/EffectAsset/Hovl Studio/Magic effects pack/Demo scene/ReflectionProbe-0.exr
+  artifactKey: Guid(b437cf6f67f5f1c4e9f1876cbbb8aceb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EffectAsset/Hovl Studio/Magic effects pack/Demo scene/ReflectionProbe-0.exr using Guid(b437cf6f67f5f1c4e9f1876cbbb8aceb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fd2f5470071a101ad4e228698f45fea') in 0.026238 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Polygonal Mind/Assets/2108_ABMAssetPack/Materials/Textures/Roots_Albedo.tif
+  artifactKey: Guid(5db3df790058cd444a61ac10e6180739) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygonal Mind/Assets/2108_ABMAssetPack/Materials/Textures/Roots_Albedo.tif using Guid(5db3df790058cd444a61ac10e6180739) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33aad44009d2176dbd51eb860e798200') in 0.025081 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Polygonal Mind/Assets/2108_ABMAssetPack/Materials/Textures/SakuraFlower_Albedo.tif
+  artifactKey: Guid(90b6726863dc4f842a7138e8a5d1f370) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygonal Mind/Assets/2108_ABMAssetPack/Materials/Textures/SakuraFlower_Albedo.tif using Guid(90b6726863dc4f842a7138e8a5d1f370) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1ba397633ad9c53e74269f76fbbc13a') in 0.025255 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/EffectAsset/Hovl Studio/Magic effects pack/Demo scene/ReflectionProbe-1.exr
+  artifactKey: Guid(6cd5e7294f0f7be4aa89e131da9505b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EffectAsset/Hovl Studio/Magic effects pack/Demo scene/ReflectionProbe-1.exr using Guid(6cd5e7294f0f7be4aa89e131da9505b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ea3ac71668394fa460e3ca40833686a') in 0.019331 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Polygonal Mind/Assets/2108_ABMAssetPack/Materials/Textures/PlatformBase_Emissive.tif
+  artifactKey: Guid(23578189b0b55f9429a5c41c4565dd8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygonal Mind/Assets/2108_ABMAssetPack/Materials/Textures/PlatformBase_Emissive.tif using Guid(23578189b0b55f9429a5c41c4565dd8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8142b521bff00dc4bdcdb79bf7caa9c1') in 0.022787 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/FantasyMonster/Skeleton/Texture/Skeleton_D.tif
+  artifactKey: Guid(943f3c476130c4f4f8ae55ef3ccd38ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FantasyMonster/Skeleton/Texture/Skeleton_D.tif using Guid(943f3c476130c4f4f8ae55ef3ccd38ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4eeb1b6cb8963f50045855b2741b837a') in 0.025093 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Sci-Fi UI/_SciFi_GUISkin_/Skin_Assets/bars/progress_bar_background.png
+  artifactKey: Guid(fcabe002e685bc147918c97e9538d17f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-Fi UI/_SciFi_GUISkin_/Skin_Assets/bars/progress_bar_background.png using Guid(fcabe002e685bc147918c97e9538d17f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45225391ab769058b542754c7cf2756b') in 0.014456 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Scenes/Game/ReflectionProbe-0.exr
+  artifactKey: Guid(f8d7e63384ed1f24e8fb7f73100ef365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Game/ReflectionProbe-0.exr using Guid(f8d7e63384ed1f24e8fb7f73100ef365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf6ab452b443a564d911c3739ffab8d0') in 0.016759 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 1.757813 seconds.
+  path: Assets/EffectAsset/Hovl Studio/Magic effects pack/Textures/Smoke26.png
+  artifactKey: Guid(08b3912bdc0a5ed4d9a27125425a97f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EffectAsset/Hovl Studio/Magic effects pack/Textures/Smoke26.png using Guid(08b3912bdc0a5ed4d9a27125425a97f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ad7bca4e69ee72c8b83c7606157d9c1') in 0.014748 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Polygonal Mind/Assets/2108_ABMAssetPack/Materials/Textures/Socials_Albedo.tif
+  artifactKey: Guid(3bd41d0a7388b5245b3a7181678a3c13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygonal Mind/Assets/2108_ABMAssetPack/Materials/Textures/Socials_Albedo.tif using Guid(3bd41d0a7388b5245b3a7181678a3c13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50ec068d54b88bd7920e81f0d87dc076') in 0.016815 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Polygonal Mind/Assets/2108_ABMAssetPack/Materials/Textures/Sphere03_Emissive.tif
+  artifactKey: Guid(f4ec53460e6d90b4ba1213d016b0d7f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygonal Mind/Assets/2108_ABMAssetPack/Materials/Textures/Sphere03_Emissive.tif using Guid(f4ec53460e6d90b4ba1213d016b0d7f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4a5ff099d48508b6ce42d2183635688') in 0.021647 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Sci-Fi UI/Demo_Assets/background/Space.tga.jpg
+  artifactKey: Guid(b76b8b216adf64f4bbdb78f7977f0310) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-Fi UI/Demo_Assets/background/Space.tga.jpg using Guid(b76b8b216adf64f4bbdb78f7977f0310) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2778e5921e026962f5b9c6b5972e09a7') in 0.038034 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Polygonal Mind/Assets/2108_ABMAssetPack/Materials/Textures/Terrain_Albedo.tif
+  artifactKey: Guid(a715e3190635bb74281d0818cfabf6d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygonal Mind/Assets/2108_ABMAssetPack/Materials/Textures/Terrain_Albedo.tif using Guid(a715e3190635bb74281d0818cfabf6d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71a60cf57319bf21eb09547bd75eb3ff') in 0.020440 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Homeless/UI Assets/Ability_Skill_Icons/UI_Skill_Icon_Arrow_Barrage.png
+  artifactKey: Guid(125bb49b217257347be09ede099b888d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Homeless/UI Assets/Ability_Skill_Icons/UI_Skill_Icon_Arrow_Barrage.png using Guid(125bb49b217257347be09ede099b888d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da2efa4ad46508e0204c1a26a1f65cef') in 0.019504 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Homeless/UI Assets/Ability_Skill_Icons/UI_Skill_Icon_Fly.png
+  artifactKey: Guid(ee40d72ece864764f9d17d015aedb524) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Homeless/UI Assets/Ability_Skill_Icons/UI_Skill_Icon_Fly.png using Guid(ee40d72ece864764f9d17d015aedb524) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '926e2f20dc1fe5394281c8b81dd9749b') in 0.019238 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Polygonal Mind/Assets/2108_ABMAssetPack/Materials/Textures/Sphere03_Albedo.tif
+  artifactKey: Guid(9642927a6e0cb834caa4a484e70f8882) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygonal Mind/Assets/2108_ABMAssetPack/Materials/Textures/Sphere03_Albedo.tif using Guid(9642927a6e0cb834caa4a484e70f8882) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6846fa4f630397c17ba45581cf92ff49') in 0.019994 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Homeless/UI Assets/Ability_Skill_Icons/UI_Skill_Icon_Punches.png
+  artifactKey: Guid(eecb85004343b0e4d8b78fd7f9877b32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Homeless/UI Assets/Ability_Skill_Icons/UI_Skill_Icon_Punches.png using Guid(eecb85004343b0e4d8b78fd7f9877b32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d2140f595470f98621a9151955f60bd') in 0.019537 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Homeless/UI Assets/Ability_Skill_Icons/UI_Skill_Icon_Slash.png
+  artifactKey: Guid(2a5c892bdd014164da633b8c6fd0f246) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Homeless/UI Assets/Ability_Skill_Icons/UI_Skill_Icon_Slash.png using Guid(2a5c892bdd014164da633b8c6fd0f246) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5caeead0584dc4cbbe2a547bb7587432') in 0.021085 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Homeless/UI Assets/Ability_Skill_Icons/UI_Skill_Icon_SpiritArrows.png
+  artifactKey: Guid(0825dfa25de4551469e65496af7b3c71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Homeless/UI Assets/Ability_Skill_Icons/UI_Skill_Icon_SpiritArrows.png using Guid(0825dfa25de4551469e65496af7b3c71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbf11a73bc964493ebd1f884e4bbecf8') in 0.027304 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/TutorialInfo/Icons/URP.png
+  artifactKey: Guid(727a75301c3d24613a3ebcec4a24c2c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TutorialInfo/Icons/URP.png using Guid(727a75301c3d24613a3ebcec4a24c2c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcfc0ff02ed6cc7a250bfe74a186740f') in 0.018382 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/EffectAsset/Hovl Studio/Magic effects pack/Textures/Splat.png
+  artifactKey: Guid(00282aad0def9f942a895c41d7389b8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EffectAsset/Hovl Studio/Magic effects pack/Textures/Splat.png using Guid(00282aad0def9f942a895c41d7389b8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb5580fdb05a0876452e6e03d71fc7f3') in 0.018352 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Homeless/UI Assets/Ability_Skill_Icons/UI_Skill_Icon_Blackhole.png
+  artifactKey: Guid(eed44235dcbd621438f7c0c4f05e2356) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Homeless/UI Assets/Ability_Skill_Icons/UI_Skill_Icon_Blackhole.png using Guid(eed44235dcbd621438f7c0c4f05e2356) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7bc463b982a50f9aaab3a560789fa64') in 0.020022 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Polygonal Mind/Assets/2108_ABMAssetPack/Materials/Textures/Sphere02_Emissive.tif
+  artifactKey: Guid(ad1823d2833862842a817b60e096327a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygonal Mind/Assets/2108_ABMAssetPack/Materials/Textures/Sphere02_Emissive.tif using Guid(ad1823d2833862842a817b60e096327a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70a1cbd7ceacc2b2b00ab68cb6431a15') in 0.025517 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Homeless/UI Assets/Ability_Skill_Icons/UI_Skill_Icon_Pound.png
+  artifactKey: Guid(61dab0b6e506c6a43b12d9fde15b2393) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Homeless/UI Assets/Ability_Skill_Icons/UI_Skill_Icon_Pound.png using Guid(61dab0b6e506c6a43b12d9fde15b2393) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42c0fc9a2418e383e62e6541271f03d2') in 0.027201 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Homeless/UI Assets/Ability_Skill_Icons/UI_Skill_Icon_MeteorShower.png
+  artifactKey: Guid(300abdf8cbdd5c742a05b6506767fd64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Homeless/UI Assets/Ability_Skill_Icons/UI_Skill_Icon_MeteorShower.png using Guid(300abdf8cbdd5c742a05b6506767fd64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15c10d6f0c924522af38dbeee477b05e') in 0.020046 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Homeless/UI Assets/Ability_Skill_Icons/UI_Skill_Icon_Dash.png
+  artifactKey: Guid(c67fbf9375ad5c34399c2849430ca7f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Homeless/UI Assets/Ability_Skill_Icons/UI_Skill_Icon_Dash.png using Guid(c67fbf9375ad5c34399c2849430ca7f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43065b246ae3a63594499b164be4c176') in 0.027031 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Homeless/UI Assets/Ability_Skill_Icons/UI_Skill_Icon_Chop.png
+  artifactKey: Guid(08c71e4e0565fe4469d1e0a593047156) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Homeless/UI Assets/Ability_Skill_Icons/UI_Skill_Icon_Chop.png using Guid(08c71e4e0565fe4469d1e0a593047156) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd07de9ab6a6a148e542d3dcf6ee2b616') in 0.020334 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Polygonal Mind/Assets/2108_ABMAssetPack/Materials/Textures/Sphere01_Albedo.tif
+  artifactKey: Guid(afc8f18402e7ce8499ebf50c9ea79aed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygonal Mind/Assets/2108_ABMAssetPack/Materials/Textures/Sphere01_Albedo.tif using Guid(afc8f18402e7ce8499ebf50c9ea79aed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29595698d8f4ab64dfc0112e48bbf92e') in 0.025844 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/EffectAsset/Hovl Studio/Magic effects pack/Textures/TechCircle.png
+  artifactKey: Guid(f49c2983d1fe900459a7d5e3d29317a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EffectAsset/Hovl Studio/Magic effects pack/Textures/TechCircle.png using Guid(f49c2983d1fe900459a7d5e3d29317a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b7e49422ab303a58e8ac5cfbb3ddb9c') in 0.024010 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Polygonal Mind/Assets/2108_ABMAssetPack/Materials/Textures/TerrainWalls_Albedo.tif
+  artifactKey: Guid(f6fbe1d3c696aff4c9b058a1943ab21b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygonal Mind/Assets/2108_ABMAssetPack/Materials/Textures/TerrainWalls_Albedo.tif using Guid(f6fbe1d3c696aff4c9b058a1943ab21b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e55fd4ba83af0caf3ca6d39813d3e43d') in 0.015308 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Homeless/UI Assets/Ability_Skill_Icons/UI_Skill_Icon_PsycicAttack.png
+  artifactKey: Guid(bbe833a9207e7fa41bbd3ce71ad09605) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Homeless/UI Assets/Ability_Skill_Icons/UI_Skill_Icon_PsycicAttack.png using Guid(bbe833a9207e7fa41bbd3ce71ad09605) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '955353fdce34994602570992780094a1') in 0.020439 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Polygonal Mind/Assets/2108_ABMAssetPack/Materials/Textures/Terrain_path_Albedo.tif
+  artifactKey: Guid(3cc1f650b62d6b74facb361af454c94f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygonal Mind/Assets/2108_ABMAssetPack/Materials/Textures/Terrain_path_Albedo.tif using Guid(3cc1f650b62d6b74facb361af454c94f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1cab69aa085b9d408e0c5b27795a048') in 0.024511 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.016397 seconds.
+  path: Assets/Polygonal Mind/Assets/2108_ABMAssetPack/Materials/Textures/Zen_Garden_albedo.tif
+  artifactKey: Guid(507f5f583b7d5234b8d7fd264a701054) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygonal Mind/Assets/2108_ABMAssetPack/Materials/Textures/Zen_Garden_albedo.tif using Guid(507f5f583b7d5234b8d7fd264a701054) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8480c68a49dc577935418f86ba6ad2e') in 0.031003 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: スレッドの終了またはアプリケーションの要求によって、I/O 処理は中止されました。
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

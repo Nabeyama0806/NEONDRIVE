@@ -1,0 +1,9 @@
+#DX
+.vs/
+[Dd]ebug/
+[Rr]elease/
+x64/
+
+Log.txt
+~$*
+Log.txt.rej
