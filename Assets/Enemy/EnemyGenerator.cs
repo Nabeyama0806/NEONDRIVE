@@ -46,8 +46,9 @@ public class EnemyGenerator : MonoBehaviour
 		for (int i = 0; i < m_spawnAmount; ++i)
 		{
 			//エネミーのインスタンス化
-			Instantiate(m_enemy, transform.position + m_spawnPos, Quaternion.identity);
-		}
+			GameObject enemy = Instantiate(m_enemy, transform.position + m_spawnPos, Quaternion.identity);
+			enemy.GetComponent<EnemyMove>().SetGameSceneManager(m_gameSceneManager);
+        }
 
 		Destroy(gameObject);
 	}

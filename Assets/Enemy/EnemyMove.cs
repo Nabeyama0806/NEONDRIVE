@@ -10,7 +10,7 @@ public class EnemyMove : MonoBehaviour
 	[SerializeField] GameObject m_hitEffect;		//死亡時のエフェクト
 	[SerializeField] AudioClip[] m_clip;
 
-	private GameObject m_gameSceneManager;
+	private GameSceneManager m_gameSceneManager;
 	private Animator m_animator;
 	private Rigidbody m_rb;
 	private CapsuleCollider m_capsuleCollider;
@@ -24,7 +24,6 @@ public class EnemyMove : MonoBehaviour
 	{
 		//ヒエラルキー上のオブジェクトを取得
 		m_target = GameObject.FindWithTag("Player").transform;
-		m_gameSceneManager = GameObject.FindWithTag("GameSceneManager");
 
 		//自身のコンポーネントを取得
 		m_agent = GetComponent<NavMeshAgent>();
@@ -68,8 +67,11 @@ public class EnemyMove : MonoBehaviour
 		GameObject tmp = Instantiate(m_deathEffect[0], transform.position, Quaternion.identity);
 		Destroy(tmp, 0.8f);
 
-		//一定時間後に自身を削除
-		Destroy(gameObject, 1);
+        //討伐数の加算
+        m_gameSceneManager.GetComponent<GameSceneManager>().AddDefeatRate();
+
+        //一定時間後に自身を削除
+        Destroy(gameObject, 1);
 	}
 
 	public void OnDamage()
@@ -98,12 +100,14 @@ public class EnemyMove : MonoBehaviour
 	private void OnDestroy()
 	{
 		SoundManager.Play2D(m_clip[1]);
-
-		//討伐数の加算
-		m_gameSceneManager.GetComponent<GameSceneManager>().AddDefeatRate();
-
+		
 		//死亡エフェクトを生成して削除
 		GameObject tmp = Instantiate(m_deathEffect[1], transform.position, Quaternion.identity);
 		Destroy(tmp, 1.3f);
 	}
+
+	public void SetGameSceneManager(GameSceneManager gm)
+	{
+        m_gameSceneManager = gm;
+    }
 }

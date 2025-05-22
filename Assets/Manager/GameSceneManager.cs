@@ -10,23 +10,24 @@ public class GameSceneManager : MonoBehaviour
 	[SerializeField] Volume[] m_volume;
     [SerializeField] GameObject m_text;				//ゲームクリアテキスト
     [SerializeField] AudioClip m_clip;				//ゲームクリア時の効果音
-	[SerializeField] Image m_fadePanel;             // フェード用のUIパネル
-	[SerializeField] float m_fadeDuration = 1.0f;   // フェードの完了にかかる時間
+	[SerializeField] Image m_fadePanel;             //フェード用のUIパネル
+	[SerializeField] float m_fadeDuration = 1.0f;   //フェードの完了にかかる時間
 	[SerializeField] int m_nextSceneAmount;         //遷移先のシーン番号
 
 	void Start()
     {
-		m_text.SetActive(false);
-
-		m_volume[0].gameObject.SetActive(true);
+        m_text.SetActive(false);
+        m_volume[0].gameObject.SetActive(true);
 		m_volume[1].gameObject.SetActive(false);
-		m_slider.value = 0;
-	}
+    }
 
     void Update()
     {
+		Debug.Log("現在値 : " + m_slider.value);
+		Debug.Log("最大値 : " + m_slider.maxValue);
+
         //討伐完了
-        if (m_slider.value >= m_slider.maxValue)
+        if (m_slider.value == m_slider.maxValue)
         {
             SoundManager.Play2D(m_clip);
 			m_volume[0].gameObject.SetActive(false);
@@ -59,7 +60,8 @@ public class GameSceneManager : MonoBehaviour
 
 	public void AddDefeatAmount(int amount)
     {
-		m_slider.maxValue += amount;
+		if(m_slider.maxValue == 1) m_slider.maxValue = amount;
+		else m_slider.maxValue += amount;
 	}
 
     public void AddDefeatRate()
