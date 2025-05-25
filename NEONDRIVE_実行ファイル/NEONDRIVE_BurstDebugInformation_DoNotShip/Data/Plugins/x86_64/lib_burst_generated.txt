@@ -69,7 +69,7 @@ Library: D:\2024\GitHub\NEONDRIVE\Temp\BurstOutput\Data\Plugins\x86_64\lib_burst
 --assembly-defines=System.Xml;
 --assembly-defines=System;
 --assembly-defines=mscorlib;
---linker-options=PdbAltPath="進級制作_Data/Plugins/x86_64/lib_burst_generated.pdb"
+--linker-options=PdbAltPath="NEONDRIVE_Data/Plugins/x86_64/lib_burst_generated.pdb"
 --generate-link-xml=Temp\burst.link.xml
 --temp-folder=D:\2024\GitHub\NEONDRIVE\Temp\Burst
 --key-folder=C:/Program Files/Unity/Hub/Editor/2022.3.22f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport
@@ -149,7 +149,7 @@ Library: D:\2024\GitHub\NEONDRIVE\Temp\BurstOutput\Data\Plugins\x86_64\lib_burst
 --assembly-defines=System.Xml;
 --assembly-defines=System;
 --assembly-defines=mscorlib;
---linker-options=PdbAltPath="進級制作_Data/Plugins/x86_64/lib_burst_generated.pdb"
+--linker-options=PdbAltPath="NEONDRIVE_Data/Plugins/x86_64/lib_burst_generated.pdb"
 --generate-link-xml=Temp\burst.link.xml
 --temp-folder=D:\2024\GitHub\NEONDRIVE\Temp\Burst
 --key-folder=C:/Program Files/Unity/Hub/Editor/2022.3.22f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport
@@ -227,7 +227,7 @@ Library: D:\2024\GitHub\NEONDRIVE\Temp\BurstOutput\Data\Plugins\x86_64\lib_burst
 --assembly-defines=System.Xml;
 --assembly-defines=System;
 --assembly-defines=mscorlib;
---linker-options=PdbAltPath="進級制作_Data/Plugins/x86_64/lib_burst_generated.pdb"
+--linker-options=PdbAltPath="NEONDRIVE_Data/Plugins/x86_64/lib_burst_generated.pdb"
 --generate-link-xml=Temp\burst.link.xml
 --temp-folder=D:\2024\GitHub\NEONDRIVE\Temp\Burst
 --key-folder=C:/Program Files/Unity/Hub/Editor/2022.3.22f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport
@@ -311,7 +311,7 @@ Library: D:\2024\GitHub\NEONDRIVE\Temp\BurstOutput\Data\Plugins\x86_64\lib_burst
 --assembly-defines=System.Xml;
 --assembly-defines=System;
 --assembly-defines=mscorlib;
---linker-options=PdbAltPath="進級制作_Data/Plugins/x86_64/lib_burst_generated.pdb"
+--linker-options=PdbAltPath="NEONDRIVE_Data/Plugins/x86_64/lib_burst_generated.pdb"
 --generate-link-xml=Temp\burst.link.xml
 --temp-folder=D:\2024\GitHub\NEONDRIVE\Temp\Burst
 --key-folder=C:/Program Files/Unity/Hub/Editor/2022.3.22f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport
